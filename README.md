@@ -4,7 +4,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 
 ---
 
-## 📁 Notebooks
+## Notebooks
 
 | Notebook | Models Inside |
 |---|---|
@@ -13,7 +13,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Quora Question Pairs** — [Kaggle](https://www.kaggle.com/c/quora-question-pairs)
 
@@ -27,7 +27,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 
 ---
 
-## 🧠 Models
+## Models
 
 ### 1. DeBERTa-v3 Cross-Encoder
 **Notebook:** `deberta_crossencoder.ipynb`
@@ -145,7 +145,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 
 ---
 
-## 📈 Full Results Comparison
+## Full Results Comparison
 
 | Model | Paradigm | Accuracy | F1 | AUC | Params |
 |---|---|---|---|---|---|
@@ -162,7 +162,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 
 ---
 
-## 🗂️ Notebook Structure
+## Notebook Structure
 
 ### `deberta_crossencoder.ipynb`
 
@@ -196,7 +196,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 ```
 torch
@@ -220,7 +220,7 @@ pip install transformers==4.40.0 sentence-transformers datasets sentencepiece pr
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### On Kaggle (recommended — free GPU)
 
@@ -242,7 +242,7 @@ Then run `sbert_setfit_stacking.ipynb` (also standalone — no dependency on DeB
 
 ---
 
-## 🔍 Explainability (SHAP)
+## Explainability (SHAP)
 
 Both notebooks include SHAP analysis:
 
@@ -254,7 +254,7 @@ All SHAP cells install `shap` automatically via `!pip install shap -q` and can b
 
 ---
 
-## ❌ Error Analysis
+## Error Analysis
 
 Both notebooks include systematic error analysis identifying two failure modes:
 
