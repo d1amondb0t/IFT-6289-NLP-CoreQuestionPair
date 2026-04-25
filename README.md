@@ -268,6 +268,3 @@ Both notebooks include systematic error analysis identifying two failure modes:
 
 ---
 
-## 👥 Team
-
-This work is part of a 3-person team project on Quora Question Pair Duplicate Detection. These two notebooks cover the transformer-based models. Other team members cover additional approaches for the combined final report.
