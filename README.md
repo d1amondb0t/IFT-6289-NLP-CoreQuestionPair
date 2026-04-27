@@ -8,9 +8,9 @@ A comparative study of modern transformer-based approaches for detecting duplica
 
 | Notebook | Models Inside |
 |---|---|
-| `embedding_models.ipynb` | Logistic Regression · LightGBM · XGBoost |
-| `embedding_models.ipynb` | BGE · E5 · GTE |
-| `embedding_models.ipynb` | Siamese GRU |
+| `baseline_and_embeddings.ipynb` | Logistic Regression · LightGBM · XGBoost |
+| `baseline_and_embeddings.ipynb` | BGE · E5 · GTE |
+| `baseline_and_embeddings.ipynb` | Siamese GRU |
 | `qwen_model.ipynb` | QWEN LLM with LoRA |
 | `models/WECNN/wecnn_main.ipynb` | WECNN |
 | `deberta_crossencoder.ipynb` | DeBERTa-v3 Cross-Encoder |
@@ -35,7 +35,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 ## Models
 
 ### 1. Logistic Regression Baseline
-**Notebook:** `embedding_models.ipynb`
+**Notebook:** `baseline_and_embeddings.ipynb`
 
 **Architecture:** Classical linear classifier trained on engineered lexical, structural, and vectorized text features.
 
@@ -53,7 +53,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 ---
 
 ### 2. LightGBM Baseline
-**Notebook:** `embedding_models.ipynb`
+**Notebook:** `baseline_and_embeddings.ipynb`
 
 **Architecture:** Gradient boosting decision-tree model trained on the same engineered and vectorized features as the baseline experiments.
 
@@ -71,7 +71,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 ---
 
 ### 3. XGBoost Baseline
-**Notebook:** `embedding_models.ipynb`
+**Notebook:** `baseline_and_embeddings.ipynb`
 
 **Architecture:** Gradient boosting decision-tree model trained on engineered lexical, structural features.
 
@@ -89,7 +89,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 ---
 
 ### 4. BGE Embedding Model
-**Notebook:** `embedding_models.ipynb`
+**Notebook:** `baseline_and_embeddings.ipynb`
 
 **Architecture:** Each question is encoded independently using a pretrained BGE sentence embedding model. Classification is then performed using similarity-based interaction features.
 
@@ -109,7 +109,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 ---
 
 ### 5. E5 Embedding Model
-**Notebook:** `embedding_models.ipynb`
+**Notebook:** `baseline_and_embeddings.ipynb`
 
 **Architecture:** Each question is encoded independently using a pretrained E5 embedding model, followed by similarity-feature classification.
 
@@ -129,7 +129,7 @@ A comparative study of modern transformer-based approaches for detecting duplica
 ---
 
 ### 6. GTE Embedding Model
-**Notebook:** `embedding_models.ipynb`
+**Notebook:** `baseline_and_embeddings.ipynb`
 
 **Architecture:** Each question is encoded independently using a pretrained GTE embedding model, then classified using embedding similarity features.
 
