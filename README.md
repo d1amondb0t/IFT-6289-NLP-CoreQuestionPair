@@ -411,6 +411,17 @@ cos(x, y) + λ = (xᵀy / ||x||||y||) + λ
 
 ---
 
+## Environment Setup
+
+This project should be run inside a dedicated Conda environment to avoid dependency conflicts.
+
+```bash
+conda create -n qqp-env python=3.10 -y
+conda activate qqp-env
+conda install pip -y
+pip install -r requirements.txt
+pip install ipykernel
+
 ## Requirements
 
 ```
