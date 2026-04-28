@@ -452,7 +452,7 @@ pip install transformers==4.40.0 sentence-transformers datasets sentencepiece pr
 
 1. Create a new notebook on [kaggle.com](https://www.kaggle.com)
 2. Add the **Quora Question Pairs** dataset: `+ Add Data → Search "quora question pairs"`
-3. Set accelerator: `Settings → Accelerator → GPU T4 x1, ideally using stronger GPUs like A100 or H100 to avoid long-run times on the tranformer and LLM methods which can take hours to train 
+3. Set accelerator: `Settings → Accelerator → GPU T4 x1, ideally use stronger GPUs like A100 or H100 to avoid long-run times on the tranformer and LLM methods which can take hours to train 
 4. Upload the notebook file
 5. Click **Run All**
 
